@@ -27,6 +27,9 @@
 
 Monorepo that provides a full-stack RAG (Retrieval-Augmented Generation) chat interface. Authenticated users can hold multi-turn conversations that are answered in real time by external RAG backends. The server auto-discovers each backend's available language/domain modes and routes queries accordingly; a mock provider is included for development without a live RAG backend.
 
+> [!NOTE]
+> This web app requires a functional backend to run on a server (the same one or a different one). Refer to the demo-rag repository (https://github.com/proxectonos/demo-rag) to learn how to run this backend.
+
 ## Project Structure
 
 ```
